@@ -5,5 +5,10 @@ const posts = [
   { author: 'Enrico', date: '09/12/2021', content: 'lorem ipsum...' },
 ]
 
+//usando un MAP per creare un nuovo array andiamo solo a stampare in consol gli author
+
+const nomes = posts.map(post=>post.author)
+console.log(nomes);
+
 // Crea un nuovo array coi nomi di tutti gli autori
 // Risultato: ['Marco', 'Luca', 'Fabrizio', 'Enrico']
