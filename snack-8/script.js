@@ -18,6 +18,9 @@ const students = [
     class: '5B'
   },
 ];
+  
 
+ const primoStudente = students.find(studente => studente.age === 32);
+console.log(primoStudente.class)
 // Recupera la classe dello studente 'Marco Lanci'
 // Risultato: '3C'
